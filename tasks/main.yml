@@ -36,6 +36,6 @@
 #  become: yes
 #  become_method: sudo
 - name: stop docker container
-docker_container:
-  name: nginx-load-balancer
-  restart: yes
+  docker_container:
+    name: nginx-load-balancer
+    restart: yes
