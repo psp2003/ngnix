@@ -1,2 +1,8 @@
 ---
 # vars file for ngnix
+app_1_addr:
+app_2_addr:
+app_3_addr:
+output_1:
+output_2:
+output_3:
