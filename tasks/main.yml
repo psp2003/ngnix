@@ -28,7 +28,7 @@
 - name: copy template in the container
   command: docker cp /tmp/nginx/nginx.conf '{{ nginx_container_name }}':/etc/nginx/nginx.conf
 
-- name: stop docker container
+- name: restart docker container (to apply new config)
   docker_container:
     name: nginx-load-balancer
     restart: yes
